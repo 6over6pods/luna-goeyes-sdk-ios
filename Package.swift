@@ -16,23 +16,18 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(
-            url: "https://github.com/mixpanel/mixpanel-swift",
-            "3.2.0" ..< "4.0.0"
-        )
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "GoEyesSDKWrapper",
-            dependencies: [.product(name: "Mixpanel", package: "mixpanel-swift"),
-                           .target(name: "GoEyesSDK")]
+            dependencies: [.target(name: "GoEyesSDK")]
         ),
         .binaryTarget(
             name: "GoEyesSDK",
-            url: "https://glasseson.jfrog.io/artifactory/luna-goeyes-sdk-ios-local/5.42.2/GoEyesSDK.xcframework.zip",
-            checksum: "30fa1d2945eadf9da3afe52bbf9ab86c0f2669a1415f70f8d2130549e94618c2"
+            url: "https://glasseson.jfrog.io/artifactory/luna-goeyes-sdk-ios-local/5.43.0/GoEyesSDK.xcframework.zip",
+            checksum: "0f40b95091485039baaa67a12d935334bb1b8c1e41b34a060c59b288b3dcf66a"
         )
     ]
 )
