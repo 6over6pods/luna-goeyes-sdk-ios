@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        // .package(url: https://glasseson.jfrog.io/artifactory/luna-goeyes-sdk-ios-local/delete.me.circleci.test-public-3/GoEyesSDK.xcframework.zip
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GoEyesSDK",
-            url: "https://glasseson.jfrog.io/artifactory/luna-goeyes-sdk-ios-local/5.44.4/GoEyesSDK.xcframework.zip",
-            checksum: "c7a6738eca63cf30dd53b107cd0d90e9b5a79a369ca13af0aea105db67579671"
+            url: https://glasseson.jfrog.io/artifactory/luna-goeyes-sdk-ios-local/delete.me.circleci.test-public-3/GoEyesSDK.xcframework.zip
+            checksum: 85ca70aeb449b2a16a2b6d0088281574152f17553acf670b646fa5621e41d427
         )
     ]
 )
