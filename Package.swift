@@ -31,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GoEyesSDK",
-            url: "https://glasseson.jfrog.io/artifactory/luna-goeyes-sdk-ios-local/5.45.1/GoEyesSDK.xcframework.zip",
-            checksum: "b815c5974127cc903421bc689baced58c279589658b1da0d6ffc321f512ef0de"
+            url: "https://glasseson.jfrog.io/artifactory/luna-goeyes-sdk-ios-local/5.45.5-1338/GoEyesSDK.xcframework.zip",
+            checksum: "224525e7745d1059a0fd147eb1a5d787f0eeec523673f25a1fc6d4a930ebcfa7"
         )
     ]
 )
